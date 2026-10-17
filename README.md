@@ -25,7 +25,9 @@ python3 -m unittest discover -s tests -v
 node scripts/validate-blocks.mjs /path/to/npm-prefix
 ```
 
-Normal CI uses test discovery. Validation must not submit a model/media generation. Official screenshot sources and dates are in [assets/source.json](assets/source.json).
+Normal CI uses test discovery. Validation must not submit a model/media generation. All five independent blocks were loaded by the released Continue CLI 1.5.47 with hosted MCP metadata and a loopback fake model; generation/query tools appeared, zero media/tool calls. See [the dated receipt](docs/cli-service-loads-20261018.json). This is local host loading, not Hub installation or a paid media result.
+
+Official screenshot sources and dates are in [assets/source.json](assets/source.json).
 
 ## Optional chat configuration for existing releases
 
