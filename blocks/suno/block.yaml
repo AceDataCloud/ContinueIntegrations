@@ -4,10 +4,12 @@ schema: v1
 metadata:
   description: Suno tools through your Ace Data Cloud account.
   author: Ace Data Cloud
+  iconUrl: https://raw.githubusercontent.com/AceDataCloud/SunoDify/0b96ef5afc74068428c65f895b4ee63c89361523/_assets/icon.jpg
   tags: suno, music, song, lyrics, mcp, music
   sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/suno
 mcpServers:
   - name: Suno by Ace Data Cloud
+    faviconUrl: https://raw.githubusercontent.com/AceDataCloud/SunoDify/0b96ef5afc74068428c65f895b4ee63c89361523/_assets/icon.jpg
     type: streamable-http
     url: https://suno.mcp.acedata.cloud/mcp
     requestOptions:

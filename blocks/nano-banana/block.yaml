@@ -4,10 +4,12 @@ schema: v1
 metadata:
   description: Nano Banana tools through your Ace Data Cloud account.
   author: Ace Data Cloud
+  iconUrl: https://raw.githubusercontent.com/AceDataCloud/NanoBananaDify/2703b3ee5cdc293751a15189ed24a0eb94dc3f43/_assets/icon.jpg
   tags: nano banana, nanobanana, image editing, mcp, image
   sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/nano-banana
 mcpServers:
   - name: Nano Banana by Ace Data Cloud
+    faviconUrl: https://raw.githubusercontent.com/AceDataCloud/NanoBananaDify/2703b3ee5cdc293751a15189ed24a0eb94dc3f43/_assets/icon.jpg
     type: streamable-http
     url: https://nanobanana.mcp.acedata.cloud/mcp
     requestOptions:

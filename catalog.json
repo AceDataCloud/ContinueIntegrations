@@ -30,7 +30,8 @@
       "endpoint_url": "https://suno.mcp.acedata.cloud/mcp",
       "local_install_path": ".continue/mcpServers/suno-acedatacloud.yaml",
       "official_listing": null,
-      "status": "candidate_local_block_hub_unavailable"
+      "status": "candidate_local_block_hub_unavailable",
+      "icon_url": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/0b96ef5afc74068428c65f895b4ee63c89361523/_assets/icon.jpg"
     },
     {
       "slug": "seedance",
@@ -57,7 +58,8 @@
       "endpoint_url": "https://seedance.mcp.acedata.cloud/mcp",
       "local_install_path": ".continue/mcpServers/seedance-acedatacloud.yaml",
       "official_listing": null,
-      "status": "candidate_local_block_hub_unavailable"
+      "status": "candidate_local_block_hub_unavailable",
+      "icon_url": "https://raw.githubusercontent.com/AceDataCloud/SeedanceDify/06499222668b5582d730ce9b50b6465cfc44270f/_assets/icon.png"
     },
     {
       "slug": "happyhorse",
@@ -84,7 +86,8 @@
       "endpoint_url": "https://happyhorse.mcp.acedata.cloud/mcp",
       "local_install_path": ".continue/mcpServers/happyhorse-acedatacloud.yaml",
       "official_listing": null,
-      "status": "candidate_local_block_hub_unavailable"
+      "status": "candidate_local_block_hub_unavailable",
+      "icon_url": "https://raw.githubusercontent.com/AceDataCloud/HappyHorseDify/ebcbfb0db4fa8261918055c2f286edd1f510dc7b/_assets/icon.jpg"
     },
     {
       "slug": "gpt-image",
@@ -112,7 +115,8 @@
       "endpoint_url": "https://openai.mcp.acedata.cloud/mcp",
       "local_install_path": ".continue/mcpServers/gpt-image-acedatacloud.yaml",
       "official_listing": null,
-      "status": "candidate_local_block_hub_unavailable"
+      "status": "candidate_local_block_hub_unavailable",
+      "icon_url": "https://raw.githubusercontent.com/AceDataCloud/GPTImageDify/910a7d746581a42dab5fe88c16b3134a44b2db1b/_assets/icon.png"
     },
     {
       "slug": "nano-banana",
@@ -139,7 +143,8 @@
       "endpoint_url": "https://nanobanana.mcp.acedata.cloud/mcp",
       "local_install_path": ".continue/mcpServers/nano-banana-acedatacloud.yaml",
       "official_listing": null,
-      "status": "candidate_local_block_hub_unavailable"
+      "status": "candidate_local_block_hub_unavailable",
+      "icon_url": "https://raw.githubusercontent.com/AceDataCloud/NanoBananaDify/2703b3ee5cdc293751a15189ed24a0eb94dc3f43/_assets/icon.jpg"
     }
   ]
 }

@@ -26,3 +26,7 @@ node scripts/validate-blocks.mjs /path/to/npm-prefix
 ```
 
 Normal CI uses test discovery. Validation must not submit a model/media generation. Official screenshot sources and dates are in [assets/source.json](assets/source.json).
+
+## Optional chat configuration for existing releases
+
+[`models/acedatacloud-chat.yaml`](models/acedatacloud-chat.yaml) is an explicit **manual compatible route**, separate from the new native Provider contribution. Replace `MODEL_ID` with the exact current chat-model ID and keep `ACEDATACLOUD_API_KEY` in your private Secret file. It does not add a native Ace selector or Hub listing; the released CLI 1.5.47's gpt-5 protocol limitation still applies. The new source Provider uses `acedatacloud` instead and requires a build containing that contribution.

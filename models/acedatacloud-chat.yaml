@@ -1,0 +1,15 @@
+name: Ace Data Cloud Chat — manual compatible route
+version: 0.1.0
+schema: v1
+metadata:
+  description: Existing-release manual route; choose an exact model ID before use. Not the native Provider contribution or a Hub listing.
+  author: Ace Data Cloud
+models:
+  - name: Ace selected chat model
+    provider: openai
+    model: MODEL_ID
+    apiBase: https://api.acedata.cloud/v1
+    apiKey: ${{ secrets.ACEDATACLOUD_API_KEY }}
+    useResponsesApi: false
+    roles:
+      - chat

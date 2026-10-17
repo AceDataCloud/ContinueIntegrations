@@ -4,10 +4,12 @@ schema: v1
 metadata:
   description: HappyHorse tools through your Ace Data Cloud account.
   author: Ace Data Cloud
+  iconUrl: https://raw.githubusercontent.com/AceDataCloud/HappyHorseDify/ebcbfb0db4fa8261918055c2f286edd1f510dc7b/_assets/icon.jpg
   tags: happyhorse, happy horse, video, mcp, video
   sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/happyhorse
 mcpServers:
   - name: HappyHorse by Ace Data Cloud
+    faviconUrl: https://raw.githubusercontent.com/AceDataCloud/HappyHorseDify/ebcbfb0db4fa8261918055c2f286edd1f510dc7b/_assets/icon.jpg
     type: streamable-http
     url: https://happyhorse.mcp.acedata.cloud/mcp
     requestOptions:
