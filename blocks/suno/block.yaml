@@ -5,7 +5,7 @@ metadata:
   description: Suno tools through your Ace Data Cloud account.
   author: Ace Data Cloud
   tags: suno, music, song, lyrics, mcp, music
-  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/suno
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/suno
 mcpServers:
   - name: Suno by Ace Data Cloud
     type: streamable-http

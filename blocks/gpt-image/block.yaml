@@ -5,7 +5,7 @@ metadata:
   description: GPT Image tools through your Ace Data Cloud account.
   author: Ace Data Cloud
   tags: gpt image, gpt-image, image generation, mcp, image
-  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/gpt-image
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/gpt-image
 mcpServers:
   - name: GPT Image by Ace Data Cloud
     type: streamable-http

@@ -5,7 +5,7 @@ metadata:
   description: Seedance tools through your Ace Data Cloud account.
   author: Ace Data Cloud
   tags: seedance, video, animation, mcp, video
-  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/seedance
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/seedance
 mcpServers:
   - name: Seedance by Ace Data Cloud
     type: streamable-http
