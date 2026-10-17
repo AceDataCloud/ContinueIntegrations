@@ -1,0 +1,15 @@
+name: HappyHorse by Ace Data Cloud
+version: 0.1.0
+schema: v1
+metadata:
+  description: HappyHorse tools through your Ace Data Cloud account.
+  author: Ace Data Cloud
+  tags: happyhorse, happy horse, video, mcp, video
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/happyhorse
+mcpServers:
+  - name: HappyHorse by Ace Data Cloud
+    type: streamable-http
+    url: https://happyhorse.mcp.acedata.cloud/mcp
+    requestOptions:
+      headers:
+        Authorization: Bearer ${{ secrets.ACEDATACLOUD_API_TOKEN }}

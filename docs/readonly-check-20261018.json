@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-10-18T02:54:04.595507+08:00",
+  "methods": [
+    "initialize",
+    "tools/list"
+  ],
+  "tools_called": 0,
+  "paid_requests": 0,
+  "services": [
+    {
+      "service": "suno",
+      "url": "https://suno.mcp.acedata.cloud/mcp",
+      "initialize_http_status": 200,
+      "list_http_status": 200,
+      "tool_count": 42,
+      "tool_names": [
+        "suno_generate_music",
+        "suno_generate_custom_music",
+        "suno_extend_music",
+        "suno_cover_music",
+        "suno_concat_music",
+        "suno_generate_with_persona",
+        "suno_remaster_music",
+        "suno_stems_music",
+        "suno_replace_section",
+        "suno_upload_extend",
+        "suno_upload_cover",
+        "suno_mashup_music",
+        "suno_all_stems_music",
+        "suno_generate_with_persona_vox",
+        "suno_underpainting",
+        "suno_overpainting",
+        "suno_samples_music",
+        "suno_generate_inspo",
+        "suno_create_custom_model",
+        "suno_get_custom_model",
+        "suno_list_custom_models",
+        "suno_generate_with_custom_model",
+        "suno_archive_custom_model",
+        "suno_list_models",
+        "suno_list_actions",
+        "suno_get_lyric_format_guide",
+        "suno_generate_lyrics",
+        "suno_get_mp4",
+        "suno_get_timing",
+        "suno_extract_vocals",
+        "suno_get_wav",
+        "suno_get_mp3",
+        "suno_get_midi",
+        "suno_create_persona",
+        "suno_list_personas",
+        "suno_delete_persona",
+        "suno_optimize_style",
+        "suno_mashup_lyrics",
+        "suno_upload_audio",
+        "suno_create_voice",
+        "suno_get_task",
+        "suno_get_tasks_batch"
+      ]
+    },
+    {
+      "service": "seedance",
+      "url": "https://seedance.mcp.acedata.cloud/mcp",
+      "initialize_http_status": 200,
+      "list_http_status": 200,
+      "tool_count": 7,
+      "tool_names": [
+        "seedance_list_models",
+        "seedance_list_resolutions",
+        "seedance_list_actions",
+        "seedance_get_task",
+        "seedance_get_tasks_batch",
+        "seedance_generate_video",
+        "seedance_generate_video_from_image"
+      ]
+    },
+    {
+      "service": "happyhorse",
+      "url": "https://happyhorse.mcp.acedata.cloud/mcp",
+      "initialize_http_status": 200,
+      "list_http_status": 200,
+      "tool_count": 7,
+      "tool_names": [
+        "happyhorse_list_models",
+        "happyhorse_get_task",
+        "happyhorse_get_tasks_batch",
+        "happyhorse_generate_video",
+        "happyhorse_generate_video_from_image",
+        "happyhorse_generate_video_from_references",
+        "happyhorse_edit_video"
+      ]
+    },
+    {
+      "service": "openai",
+      "url": "https://openai.mcp.acedata.cloud/mcp",
+      "initialize_http_status": 200,
+      "list_http_status": 200,
+      "tool_count": 15,
+      "tool_names": [
+        "openai_text_to_speech",
+        "openai_transcribe_audio",
+        "openai_chat_completion",
+        "openai_create_embedding",
+        "openai_generate_image",
+        "openai_edit_image",
+        "openai_get_models",
+        "openai_get_realtime_connection_info",
+        "openai_list_chat_models",
+        "openai_list_image_models",
+        "openai_list_embedding_models",
+        "openai_get_usage_guide",
+        "openai_create_response",
+        "openai_get_task",
+        "openai_list_tasks"
+      ]
+    },
+    {
+      "service": "nanobanana",
+      "url": "https://nanobanana.mcp.acedata.cloud/mcp",
+      "initialize_http_status": 200,
+      "list_http_status": 200,
+      "tool_count": 4,
+      "tool_names": [
+        "nanobanana_generate_image",
+        "nanobanana_edit_image",
+        "nanobanana_get_task",
+        "nanobanana_get_tasks_batch"
+      ]
+    }
+  ]
+}

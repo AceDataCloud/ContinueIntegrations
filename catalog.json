@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "as_of": "2026-10-18",
+  "publisher": "Ace Data Cloud",
+  "distribution": "independent local blocks; no live Hub",
+  "services": [
+    {
+      "slug": "suno",
+      "name": "Suno",
+      "endpoint": "suno",
+      "source_repo": "SunoMCP",
+      "package": "mcp-suno",
+      "category": "music",
+      "search_terms": [
+        "suno",
+        "music",
+        "song",
+        "lyrics"
+      ],
+      "generate_tool": "suno_generate_music",
+      "query_tool": "suno_get_task",
+      "reference_tool": "suno_list_models",
+      "model_example": "chirp-v6",
+      "allowed_apis": [
+        "/suno/audios",
+        "/suno/tasks"
+      ],
+      "docs": "suno-audios",
+      "title": "Suno by Ace Data Cloud",
+      "endpoint_url": "https://suno.mcp.acedata.cloud/mcp",
+      "local_install_path": ".continue/mcpServers/suno-acedatacloud.yaml",
+      "official_listing": null,
+      "status": "candidate_local_block_hub_unavailable"
+    },
+    {
+      "slug": "seedance",
+      "name": "Seedance",
+      "endpoint": "seedance",
+      "source_repo": "SeedanceMCP",
+      "package": "mcp-seedance",
+      "category": "video",
+      "search_terms": [
+        "seedance",
+        "video",
+        "animation"
+      ],
+      "generate_tool": "seedance_generate_video",
+      "query_tool": "seedance_get_task",
+      "reference_tool": "seedance_list_models",
+      "model_example": null,
+      "allowed_apis": [
+        "/seedance/videos",
+        "/seedance/tasks"
+      ],
+      "docs": "seedance",
+      "title": "Seedance by Ace Data Cloud",
+      "endpoint_url": "https://seedance.mcp.acedata.cloud/mcp",
+      "local_install_path": ".continue/mcpServers/seedance-acedatacloud.yaml",
+      "official_listing": null,
+      "status": "candidate_local_block_hub_unavailable"
+    },
+    {
+      "slug": "happyhorse",
+      "name": "HappyHorse",
+      "endpoint": "happyhorse",
+      "source_repo": "HappyHorseMCP",
+      "package": "mcp-happyhorse",
+      "category": "video",
+      "search_terms": [
+        "happyhorse",
+        "happy horse",
+        "video"
+      ],
+      "generate_tool": "happyhorse_generate_video",
+      "query_tool": "happyhorse_get_task",
+      "reference_tool": "happyhorse_list_models",
+      "model_example": "happyhorse-1.1-t2v",
+      "allowed_apis": [
+        "/happyhorse/videos",
+        "/happyhorse/tasks"
+      ],
+      "docs": "happyhorse",
+      "title": "HappyHorse by Ace Data Cloud",
+      "endpoint_url": "https://happyhorse.mcp.acedata.cloud/mcp",
+      "local_install_path": ".continue/mcpServers/happyhorse-acedatacloud.yaml",
+      "official_listing": null,
+      "status": "candidate_local_block_hub_unavailable"
+    },
+    {
+      "slug": "gpt-image",
+      "name": "GPT Image",
+      "endpoint": "openai",
+      "source_repo": "OpenAIMCP",
+      "package": "mcp-openai-pro",
+      "category": "image",
+      "search_terms": [
+        "gpt image",
+        "gpt-image",
+        "image generation"
+      ],
+      "generate_tool": "openai_generate_image",
+      "query_tool": "openai_get_task",
+      "reference_tool": null,
+      "model_example": "gpt-image-2",
+      "allowed_apis": [
+        "/openai/images/generations",
+        "/openai/tasks"
+      ],
+      "docs": "openai-images-generations",
+      "scope_note": "Uses the existing OpenAI MCP, which also exposes chat/audio/embedding tools. This block name is not a tool or permission filter; restrict allowed APIs on your token.",
+      "title": "GPT Image by Ace Data Cloud",
+      "endpoint_url": "https://openai.mcp.acedata.cloud/mcp",
+      "local_install_path": ".continue/mcpServers/gpt-image-acedatacloud.yaml",
+      "official_listing": null,
+      "status": "candidate_local_block_hub_unavailable"
+    },
+    {
+      "slug": "nano-banana",
+      "name": "Nano Banana",
+      "endpoint": "nanobanana",
+      "source_repo": "NanoBananaMCP",
+      "package": "mcp-nanobanana-pro",
+      "category": "image",
+      "search_terms": [
+        "nano banana",
+        "nanobanana",
+        "image editing"
+      ],
+      "generate_tool": "nanobanana_generate_image",
+      "query_tool": "nanobanana_get_task",
+      "reference_tool": null,
+      "model_example": "nano-banana-2.1",
+      "allowed_apis": [
+        "/nano-banana/images",
+        "/nano-banana/tasks"
+      ],
+      "docs": "nano-banana-mcp",
+      "title": "Nano Banana by Ace Data Cloud",
+      "endpoint_url": "https://nanobanana.mcp.acedata.cloud/mcp",
+      "local_install_path": ".continue/mcpServers/nano-banana-acedatacloud.yaml",
+      "official_listing": null,
+      "status": "candidate_local_block_hub_unavailable"
+    }
+  ]
+}

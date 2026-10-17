@@ -1,0 +1,15 @@
+name: GPT Image by Ace Data Cloud
+version: 0.1.0
+schema: v1
+metadata:
+  description: GPT Image tools through your Ace Data Cloud account.
+  author: Ace Data Cloud
+  tags: gpt image, gpt-image, image generation, mcp, image
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/gpt-image
+mcpServers:
+  - name: GPT Image by Ace Data Cloud
+    type: streamable-http
+    url: https://openai.mcp.acedata.cloud/mcp
+    requestOptions:
+      headers:
+        Authorization: Bearer ${{ secrets.ACEDATACLOUD_API_TOKEN }}

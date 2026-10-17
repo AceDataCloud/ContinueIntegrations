@@ -1,0 +1,15 @@
+name: Seedance by Ace Data Cloud
+version: 0.1.0
+schema: v1
+metadata:
+  description: Seedance tools through your Ace Data Cloud account.
+  author: Ace Data Cloud
+  tags: seedance, video, animation, mcp, video
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/seedance
+mcpServers:
+  - name: Seedance by Ace Data Cloud
+    type: streamable-http
+    url: https://seedance.mcp.acedata.cloud/mcp
+    requestOptions:
+      headers:
+        Authorization: Bearer ${{ secrets.ACEDATACLOUD_API_TOKEN }}
