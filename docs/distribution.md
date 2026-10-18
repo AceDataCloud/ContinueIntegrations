@@ -1,4 +1,4 @@
-# Official distribution status — 2026-10-18
+# Official distribution status — 2026-10-19
 
 Continue's current source explicitly removed Hub package loading and slug resolution:
 
@@ -9,6 +9,6 @@ Continue's current source explicitly removed Hub package loading and slug resolu
 
 The previous Hub Models/MCP/Rules/Prompts/Agents distribution mechanism cannot currently be published through a verified active path. A repository or a local install is not an official searchable listing. No evidence of a separate current Skills store exists. We will not create duplicate publisher identities, accept agreements, or invent a Hub URL.
 
-Five independent service brands remain useful as standalone installable files and submission-ready metadata if the platform reopens a catalog; they share one packaging source here because there is no official mechanism requiring five repositories. No rule forbidding separate service brands was found; the blocker is removed distribution infrastructure, not an asserted duplicate rule.
+Five independent service brands are published as standalone installable files on the [GitHub source releases page](https://github.com/AceDataCloud/ContinueIntegrations/releases/latest), with submission-ready metadata if the platform reopens a catalog; they share one packaging source here because there is no official mechanism requiring five repositories. No rule forbidding separate service brands was found; the blocker is removed distribution infrastructure, not an asserted duplicate rule.
 
-A native `acedatacloud` Provider contribution is being prepared independently against the existing selectable-provider UI. Upstream review, CLA, merge, official package release and ordinary user installation remain separate gates. No CLA has been signed by this automation.
+The native `acedatacloud` Provider contribution is [upstream #13394](https://github.com/continuedev/continue/pull/13394), separate from the [five-service official examples contribution #13396](https://github.com/continuedev/continue/pull/13396). Upstream review, CLA, merge, official package release and ordinary user installation remain separate gates. No CLA has been signed by this automation.

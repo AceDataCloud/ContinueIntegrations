@@ -2,7 +2,7 @@
 
 Install only the service you need: each directory contains an independently loadable MCP block and its own English/Chinese token-to-result guide. Runtime tools remain in the existing Ace MCP servers; this repository does not create another provider backend.
 
-**Not a Continue Hub listing.** Current Continue has removed Hub loading. These are local candidates plus publication materials; they do not mean users can search the official Hub and install them. See [distribution evidence](docs/distribution.md).
+**Published local installation files — not a Continue Hub listing.** Download one service YAML or its English/Chinese ZIP from the [official source release](https://github.com/AceDataCloud/ContinueIntegrations/releases/latest). Current Continue has removed Hub loading; this release does not mean users can search the official Hub and install them. See [distribution evidence](docs/distribution.md).
 
 | Service | Independent block and guide | Existing runtime source |
 | --- | --- | --- |
