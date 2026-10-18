@@ -20,6 +20,6 @@
 
 上两图为 Ace 已发布账户教程的脱敏截图（来自 SunoDify），不是 Continue 内运行截图。
 
-401 查 Token/过期/加载位置，403 查权限或审核；pending 继续查询原 ID。This independently loadable block connects only this service endpoint; token permissions still control API access.
+401 查 Token/过期/加载位置，403 查权限或审核；pending 继续查询原 ID。此独立配置只连接当前服务端点；实际 API 访问仍由 Token 权限控制。
 
 完整字段与接口：[English guide](README.md)。

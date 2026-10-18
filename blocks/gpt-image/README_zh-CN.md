@@ -20,6 +20,6 @@
 
 上两图为 Ace 已发布账户教程的脱敏截图（来自 SunoDify），不是 Continue 内运行截图。
 
-401 查 Token/过期/加载位置，403 查权限或审核；pending 继续查询原 ID。Uses the existing OpenAI MCP, which also exposes chat/audio/embedding tools. This block name is not a tool or permission filter; restrict allowed APIs on your token.
+401 查 Token/过期/加载位置，403 查权限或审核；pending 继续查询原 ID。此配置复用现有 OpenAI MCP，也会暴露对话、音频和嵌入等工具。服务名称不是工具过滤器，也不提供权限隔离；请按需限制 Token 的 Allowed APIs。
 
 完整字段与接口：[English guide](README.md)。
