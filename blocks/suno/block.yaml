@@ -1,12 +1,12 @@
 name: Suno by Ace Data Cloud
-version: 0.1.0
+version: 0.1.1
 schema: v1
 metadata:
   description: Suno tools through your Ace Data Cloud account.
   author: Ace Data Cloud
   iconUrl: https://raw.githubusercontent.com/AceDataCloud/SunoDify/0b96ef5afc74068428c65f895b4ee63c89361523/_assets/icon.jpg
   tags: suno, music, song, lyrics, mcp, music
-  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/suno
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/suno
 mcpServers:
   - name: Suno by Ace Data Cloud
     faviconUrl: https://raw.githubusercontent.com/AceDataCloud/SunoDify/0b96ef5afc74068428c65f895b4ee63c89361523/_assets/icon.jpg

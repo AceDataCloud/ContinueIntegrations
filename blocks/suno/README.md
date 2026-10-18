@@ -2,11 +2,11 @@
 
 Suno music tools in Continue through your own Ace Data Cloud account. This is an independent service block; it reuses [the existing MCP server](https://github.com/AceDataCloud/SunoMCP) rather than copying its implementation. It is provided by Ace Data Cloud and is not an official Suno product.
 
-**Distribution status (2026-10-18): candidate, not listed in Continue Hub.** Current Continue source removed Hub package loading and slug resolution. There is no verified working Hub search/publish/install path. The local-file route below is usable by supported Continue versions, but it does not meet official catalog discovery. [Official removal evidence](https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/extensions/cli/src/hubLoader.ts).
+**Distribution status (2026-10-19): published local installation files, not listed in Continue Hub.** Current Continue source removed Hub package loading and slug resolution. There is no verified working Hub search/publish/install path. The local-file route below is usable by supported Continue versions, but it does not meet official catalog discovery. [Official removal evidence](https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/extensions/cli/src/hubLoader.ts).
 
 ## 1. Install this service block
 
-Install Continue from its [official VS Code extension page](https://marketplace.visualstudio.com/items?itemName=Continue.continue), or use an existing supported installation. Keep your current chat model configured separately. Download only [`block.yaml`](block.yaml), then save it as **`.continue/mcpServers/suno-acedatacloud.yaml`** in your workspace. Do not copy the whole Top5 catalog to install one service. Existing servers remain separate.
+Install Continue from its [official VS Code extension page](https://marketplace.visualstudio.com/items?itemName=Continue.continue), or use an existing supported installation. Keep your current chat model configured separately. Download only [this service YAML](https://github.com/AceDataCloud/ContinueIntegrations/releases/latest/download/suno-by-acedatacloud.continue.yaml), or its English/Chinese ZIP from the [published release](https://github.com/AceDataCloud/ContinueIntegrations/releases/latest), then save it as **`.continue/mcpServers/suno-acedatacloud.yaml`** in your workspace. Do not copy the whole Top5 catalog to install one service. Existing servers remain separate.
 
 Open Continue → Local Config → the gear to inspect the selected configuration. The official historical screenshot below identifies that entry; it is not a screenshot of this service installed or running.
 

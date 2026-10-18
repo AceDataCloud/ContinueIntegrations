@@ -1,12 +1,12 @@
 name: Seedance by Ace Data Cloud
-version: 0.1.0
+version: 0.1.1
 schema: v1
 metadata:
   description: Seedance tools through your Ace Data Cloud account.
   author: Ace Data Cloud
   iconUrl: https://raw.githubusercontent.com/AceDataCloud/SeedanceDify/06499222668b5582d730ce9b50b6465cfc44270f/_assets/icon.png
   tags: seedance, video, animation, mcp, video
-  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/codex/service-blocks-20261018/blocks/seedance
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/seedance
 mcpServers:
   - name: Seedance by Ace Data Cloud
     faviconUrl: https://raw.githubusercontent.com/AceDataCloud/SeedanceDify/06499222668b5582d730ce9b50b6465cfc44270f/_assets/icon.png
