@@ -6,6 +6,7 @@ Install only the service you need: each directory contains an independently load
 
 | Service | Independent block and guide | Existing runtime source |
 | --- | --- | --- |
+| ACE Music by Ace Data Cloud | [ACE Music source block](blocks/acemusic) | [AceMusicMCP](https://github.com/AceDataCloud/AceMusicMCP) |
 | Suno by Ace Data Cloud | [suno](blocks/suno) | [SunoMCP](https://github.com/AceDataCloud/SunoMCP) |
 | Seedance by Ace Data Cloud | [seedance](blocks/seedance) | [SeedanceMCP](https://github.com/AceDataCloud/SeedanceMCP) |
 | HappyHorse by Ace Data Cloud | [happyhorse](blocks/happyhorse) | [HappyHorseMCP](https://github.com/AceDataCloud/HappyHorseMCP) |

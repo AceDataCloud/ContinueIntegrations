@@ -12,7 +12,7 @@ class ServiceBlockCatalogTests(unittest.TestCase):
         catalog = json.loads((ROOT / "catalog.json").read_text())
         self.assertEqual(
             {service["slug"] for service in catalog["services"]},
-            {"suno", "seedance", "happyhorse", "gpt-image", "nano-banana"},
+            {"suno", "seedance", "happyhorse", "gpt-image", "nano-banana", "acemusic"},
         )
         for service in catalog["services"]:
             directory = ROOT / "blocks" / service["slug"]

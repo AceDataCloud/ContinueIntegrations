@@ -1,0 +1,17 @@
+name: ACE Music by Ace Data Cloud
+version: 0.1.0
+schema: v1
+metadata:
+  description: ACE Music tools through your Ace Data Cloud account.
+  author: Ace Data Cloud
+  iconUrl: https://cdn.acedata.cloud/acemusic-icon-52deddfc87b9.png
+  tags: acemusic, music, song, lyrics, cover, mashup, mcp
+  sourceCodeUrl: https://github.com/AceDataCloud/ContinueIntegrations/tree/main/blocks/acemusic
+mcpServers:
+  - name: ACE Music by Ace Data Cloud
+    faviconUrl: https://cdn.acedata.cloud/acemusic-icon-52deddfc87b9.png
+    type: streamable-http
+    url: https://acemusic.mcp.acedata.cloud/mcp
+    requestOptions:
+      headers:
+        Authorization: Bearer ${{ secrets.ACEDATACLOUD_API_TOKEN }}
