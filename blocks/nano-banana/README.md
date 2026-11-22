@@ -16,8 +16,8 @@ Source: [Continue configuration guide](https://docs.continue.dev/customize/deep-
 
 ## 2. Register and get a dedicated API token
 
-1. [Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=continue&utm_medium=integration&utm_campaign=ecosystem-growth&utm_content=nano-banana_api_key). Open **General application**; if absent, choose **Initialize General Application**.
-2. Copy its API Key, or **Manage Keys → Create** a separate key named `Continue Nano Banana`. Check expiration, service access, usage limits, balance and [current prices](https://platform.acedata.cloud/models?utm_source=continue&utm_medium=integration&utm_campaign=ecosystem-growth&utm_content=nano-banana_pricing). There is no fixed free allowance promised here.
+1. [Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=continue&utm_medium=integration&utm_campaign=ecosystem-growth). Open **General application**; if absent, choose **Initialize General Application**.
+2. Copy its API Key, or **Manage Keys → Create** a separate key named `Continue Nano Banana`. Check expiration, service access, usage limits, balance and [current prices](https://platform.acedata.cloud/models?utm_source=continue&utm_medium=integration&utm_campaign=ecosystem-growth). There is no fixed free allowance promised here.
 3. If **Allowed APIs** is enabled, include the chosen generation API and its task-query API: `/nano-banana/images`, `/nano-banana/tasks`. Choose the exact current model and inspect the service schema before generating.
 
 ![Copy an API key or open Manage Keys](https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/get-api-key-en.png)
@@ -49,7 +49,7 @@ When you explicitly choose a paid first use after checking current access and pr
 }
 ```
 
-This input is documentation, not a task this repository has submitted. Preserve the returned `task_id`. Query **`nanobanana_get_task`** using the **same ID** until terminal success or failure. Do not resubmit generation to poll. A pending task or preview URL is not the final result; open only the final media URL from a successful task and check the account's matching usage/bill. [Current service guide](https://platform.acedata.cloud/documents/nano-banana-mcp?utm_source=continue&utm_medium=integration&utm_campaign=ecosystem-growth&utm_content=nano-banana_service_guide).
+This input is documentation, not a task this repository has submitted. Preserve the returned `task_id`. Query **`nanobanana_get_task`** using the **same ID** until terminal success or failure. Do not resubmit generation to poll. A pending task or preview URL is not the final result; open only the final media URL from a successful task and check the account's matching usage/bill. [Current service guide](https://platform.acedata.cloud/documents/nano-banana-mcp?utm_source=continue&utm_medium=integration&utm_campaign=ecosystem-growth).
 
 This independently loadable block connects only this service endpoint; token permissions still control API access.
 
