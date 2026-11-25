@@ -2,7 +2,7 @@
 
 Install only the service you need: each directory contains an independently loadable MCP block and its own English/Chinese token-to-result guide. Runtime tools remain in the existing Ace MCP servers; this repository does not create another provider backend.
 
-**Published local installation files — not a Continue Hub listing.** Download one service YAML or its English/Chinese ZIP from the [official source release](https://github.com/AceDataCloud/ContinueIntegrations/releases/latest). Current Continue has removed Hub loading; this release does not mean users can search the official Hub and install them. See [distribution evidence](docs/distribution.md).
+**Published local installation files — not a Continue Hub listing.** For the five v0.1.1 services, download one service YAML or its English/Chinese ZIP from the [official source release](https://github.com/AceDataCloud/ContinueIntegrations/releases/latest). Current Continue has removed Hub loading; this release does not mean users can search the official Hub and install them. See [distribution evidence](docs/distribution.md).
 
 | Service | Independent block and guide | Existing runtime source |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ python3 -m unittest discover -s tests -v
 node scripts/validate-blocks.mjs /path/to/npm-prefix
 ```
 
-Normal CI uses test discovery. Validation must not submit a model/media generation. All five independent blocks were loaded by the released Continue CLI 1.5.47 with hosted MCP metadata and a loopback fake model; generation/query tools appeared, zero media/tool calls. See [the dated receipt](docs/cli-service-loads-20261018.json). This is local host loading, not Hub installation or a paid media result.
+Normal CI uses test discovery. Validation must not submit a model/media generation. The five v0.1.1 blocks were loaded by the released Continue CLI 1.5.47 with hosted MCP metadata and a loopback fake model; generation/query tools appeared, zero media/tool calls. See [the dated receipt](docs/cli-service-loads-20261018.json). This is local host loading, not Hub installation or a paid media result.
 
 Official screenshot sources and dates are in [assets/source.json](assets/source.json).
 

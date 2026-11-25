@@ -36,8 +36,9 @@ class ServiceBlockCatalogTests(unittest.TestCase):
                 for url in urls:
                     query = parse_qs(urlparse(url).query)
                     self.assertEqual(query.get("utm_source"), ["continue"])
-                    self.assertTrue(
-                        {"utm_source", "utm_medium", "utm_campaign", "utm_content"}.issubset(query)
+                    self.assertEqual(
+                        {key for key in query if key.startswith("utm_")},
+                        {"utm_source", "utm_medium", "utm_campaign"},
                     )
 
     def test_gpt_image_does_not_claim_its_shared_endpoint_filters_tools(self):
