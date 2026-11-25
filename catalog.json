@@ -155,6 +155,40 @@
       "icon_url": "https://raw.githubusercontent.com/AceDataCloud/NanoBananaDify/2703b3ee5cdc293751a15189ed24a0eb94dc3f43/_assets/icon.jpg",
       "block_version": "0.1.1",
       "release_download": "https://github.com/AceDataCloud/ContinueIntegrations/releases/latest/download/nano-banana-by-acedatacloud.continue.yaml"
+    },
+    {
+      "slug": "acemusic",
+      "name": "ACE Music",
+      "endpoint": "acemusic",
+      "source_repo": "AceMusicMCP",
+      "package": "mcp-acemusic",
+      "category": "music",
+      "search_terms": [
+        "ACE Music",
+        "music",
+        "song",
+        "lyrics",
+        "cover",
+        "mashup"
+      ],
+      "generate_tool": "acemusic_generate_music",
+      "query_tool": "acemusic_get_task",
+      "reference_tool": "acemusic_list_models",
+      "model_example": "acemusic-v1.1",
+      "allowed_apis": [
+        "/acemusic/audios",
+        "/acemusic/lyrics",
+        "/acemusic/tasks"
+      ],
+      "docs": "acemusic-audios-integration",
+      "title": "ACE Music by Ace Data Cloud",
+      "endpoint_url": "https://acemusic.mcp.acedata.cloud/mcp",
+      "local_install_path": ".continue/mcpServers/acemusic-acedatacloud.yaml",
+      "official_listing": null,
+      "status": "source_block",
+      "icon_url": "https://cdn.acedata.cloud/acemusic-icon-52deddfc87b9.png",
+      "block_version": "0.1.0",
+      "release_download": null
     }
   ]
 }
