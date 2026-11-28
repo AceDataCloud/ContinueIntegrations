@@ -1,5 +1,5 @@
-name: ACE Music by Ace Data Cloud
-version: 0.1.0
+name: ACE Music
+version: 0.1.1
 schema: v1
 metadata:
   description: ACE Music tools through your Ace Data Cloud account.

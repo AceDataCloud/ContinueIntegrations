@@ -1,4 +1,4 @@
-# Seedance by Ace Data Cloud：Continue 独立服务配置
+# Seedance
 
 这是 Ace Data Cloud 提供的 Seedance 集成，不是 Seedance 官方插件。复用现有 [SeedanceMCP](https://github.com/AceDataCloud/SeedanceMCP)，没有复制服务代码。
 

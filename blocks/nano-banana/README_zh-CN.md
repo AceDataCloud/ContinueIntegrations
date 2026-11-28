@@ -1,4 +1,4 @@
-# Nano Banana by Ace Data Cloud：Continue 独立服务配置
+# Nano Banana
 
 这是 Ace Data Cloud 提供的 Nano Banana 集成，不是 Nano Banana 官方插件。复用现有 [NanoBananaMCP](https://github.com/AceDataCloud/NanoBananaMCP)，没有复制服务代码。
 

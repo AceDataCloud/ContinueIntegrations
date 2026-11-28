@@ -1,4 +1,4 @@
-# GPT Image by Ace Data Cloud：Continue 独立服务配置
+# GPT Image
 
 这是 Ace Data Cloud 提供的 GPT Image 集成，不是 GPT Image 官方插件。复用现有 [OpenAIMCP](https://github.com/AceDataCloud/OpenAIMCP)，没有复制服务代码。
 

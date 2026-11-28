@@ -1,4 +1,4 @@
-# HappyHorse by Ace Data Cloud — Continue MCP block
+# HappyHorse
 
 HappyHorse video tools in Continue through your own Ace Data Cloud account. This is an independent service block; it reuses [the existing MCP server](https://github.com/AceDataCloud/HappyHorseMCP) rather than copying its implementation. It is provided by Ace Data Cloud and is not an official HappyHorse product.
 
@@ -38,7 +38,7 @@ The YAML contains the Secret placeholder, not the token. Keep `.env` private and
 
 ## 4. Check loading, then use the service deliberately
 
-Reload Continue and inspect the configured MCP server/tools in Agent mode. Confirm the server title **HappyHorse by Ace Data Cloud** and exact tools `happyhorse_generate_video` / `happyhorse_get_task`. Tool listing alone is a free transport check, not a successful media generation. After reviewing tool names, call `happyhorse_list_models` only if you want static model reference data. It does not verify generation access or balance.
+Reload Continue and inspect the configured MCP server/tools in Agent mode. Confirm the server title **HappyHorse** and exact tools `happyhorse_generate_video` / `happyhorse_get_task`. Tool listing alone is a free transport check, not a successful media generation. After reviewing tool names, call `happyhorse_list_models` only if you want static model reference data. It does not verify generation access or balance.
 
 When you explicitly choose a paid first use after checking current access and price, ask Continue to call **`happyhorse_generate_video`** with the current tool schema. An illustrative input is:
 

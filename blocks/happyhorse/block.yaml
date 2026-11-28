@@ -1,5 +1,5 @@
-name: HappyHorse by Ace Data Cloud
-version: 0.1.1
+name: HappyHorse
+version: 0.1.2
 schema: v1
 metadata:
   description: HappyHorse tools through your Ace Data Cloud account.

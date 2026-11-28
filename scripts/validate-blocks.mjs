@@ -13,7 +13,9 @@ for (const service of catalog.services) {
   assert.equal(parsed.schema, "v1");
   assert.equal(parsed.mcpServers.length, 1);
   const server = parsed.mcpServers[0];
-  assert.equal(server.name, service.title);
+  assert.equal(parsed.name, service.title);
+  assert.equal(parsed.version, service.block_version);
+  assert.equal(server.name, service.server_name);
   assert.equal(server.url, service.endpoint_url);
   assert.equal(server.type, "streamable-http");
   assert.equal(server.requestOptions.headers.Authorization, "Bearer ${{ secrets.ACEDATACLOUD_API_TOKEN }}");

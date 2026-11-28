@@ -1,4 +1,4 @@
-# 在 Continue 中使用 ACE Music
+# ACE Music
 
 在 Continue IDE 扩展中，把 [block.yaml](block.yaml) 复制到工作区的 `.continue/mcpServers/acemusic-acedatacloud.yaml`。使用 Continue CLI 时，把该文件中的服务器配置加入当前 `config.yaml` 的 `mcpServers`。在私有的 `~/.continue/.env` 中设置 `ACEDATACLOUD_API_TOKEN` 并重载。该文件可独立安装，Continue Hub 收录需要另外发布。
 

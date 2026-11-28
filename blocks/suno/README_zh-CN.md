@@ -1,4 +1,4 @@
-# Suno by Ace Data Cloud：Continue 独立服务配置
+# Suno
 
 这是 Ace Data Cloud 提供的 Suno 集成，不是 Suno 官方插件。复用现有 [SunoMCP](https://github.com/AceDataCloud/SunoMCP)，没有复制服务代码。
 
