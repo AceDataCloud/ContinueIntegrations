@@ -1,5 +1,5 @@
-name: Seedance by Ace Data Cloud
-version: 0.1.1
+name: Seedance
+version: 0.1.2
 schema: v1
 metadata:
   description: Seedance tools through your Ace Data Cloud account.

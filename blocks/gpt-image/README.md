@@ -1,4 +1,4 @@
-# GPT Image by Ace Data Cloud — Continue MCP block
+# GPT Image
 
 GPT Image image tools in Continue through your own Ace Data Cloud account. This is an independent service block; it reuses [the existing MCP server](https://github.com/AceDataCloud/OpenAIMCP) rather than copying its implementation. It is provided by Ace Data Cloud and is not an official GPT Image product.
 
@@ -38,7 +38,7 @@ The YAML contains the Secret placeholder, not the token. Keep `.env` private and
 
 ## 4. Check loading, then use the service deliberately
 
-Reload Continue and inspect the configured MCP server/tools in Agent mode. Confirm the server title **GPT Image by Ace Data Cloud** and exact tools `openai_generate_image` / `openai_get_task`. Tool listing alone is a free transport check, not a successful media generation. Start by inspecting the MCP tool list without invoking a generation tool.
+Reload Continue and inspect the configured MCP server/tools in Agent mode. Confirm the server title **GPT Image** and exact tools `openai_generate_image` / `openai_get_task`. Tool listing alone is a free transport check, not a successful media generation. Start by inspecting the MCP tool list without invoking a generation tool.
 
 When you explicitly choose a paid first use after checking current access and price, ask Continue to call **`openai_generate_image`** with the current tool schema. An illustrative input is:
 

@@ -1,4 +1,4 @@
-# ACE Music for Continue
+# ACE Music
 
 In the Continue IDE extension, copy [block.yaml](block.yaml) to `.continue/mcpServers/acemusic-acedatacloud.yaml` in the intended workspace. For Continue CLI, add the block’s server entry to `mcpServers` in your selected `config.yaml`. Supply `ACEDATACLOUD_API_TOKEN` in your private `~/.continue/.env` and reload Continue. This is an independent local block; Continue Hub publication is separate.
 

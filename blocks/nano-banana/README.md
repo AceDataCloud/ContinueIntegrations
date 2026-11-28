@@ -1,4 +1,4 @@
-# Nano Banana by Ace Data Cloud — Continue MCP block
+# Nano Banana
 
 Nano Banana image tools in Continue through your own Ace Data Cloud account. This is an independent service block; it reuses [the existing MCP server](https://github.com/AceDataCloud/NanoBananaMCP) rather than copying its implementation. It is provided by Ace Data Cloud and is not an official Nano Banana product.
 
@@ -38,7 +38,7 @@ The YAML contains the Secret placeholder, not the token. Keep `.env` private and
 
 ## 4. Check loading, then use the service deliberately
 
-Reload Continue and inspect the configured MCP server/tools in Agent mode. Confirm the server title **Nano Banana by Ace Data Cloud** and exact tools `nanobanana_generate_image` / `nanobanana_get_task`. Tool listing alone is a free transport check, not a successful media generation. Start by inspecting the MCP tool list without invoking a generation tool.
+Reload Continue and inspect the configured MCP server/tools in Agent mode. Confirm the server title **Nano Banana** and exact tools `nanobanana_generate_image` / `nanobanana_get_task`. Tool listing alone is a free transport check, not a successful media generation. Start by inspecting the MCP tool list without invoking a generation tool.
 
 When you explicitly choose a paid first use after checking current access and price, ask Continue to call **`nanobanana_generate_image`** with the current tool schema. An illustrative input is:
 

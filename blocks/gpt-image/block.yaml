@@ -1,5 +1,5 @@
-name: GPT Image by Ace Data Cloud
-version: 0.1.1
+name: GPT Image
+version: 0.1.2
 schema: v1
 metadata:
   description: GPT Image tools through your Ace Data Cloud account.
